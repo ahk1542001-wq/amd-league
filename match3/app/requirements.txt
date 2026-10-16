@@ -1,0 +1,13 @@
+# MC3 solution dependencies (on top of the ROCm base image, which ships
+# torch + PIL only).
+transformers>=4.55
+accelerate>=1.0
+sentence-transformers>=3.0
+safetensors>=0.4
+numpy>=1.26
+pypdf>=4.0
+pymupdf>=1.24
+python-docx>=1.1
+openpyxl>=3.1
+Pillow>=10.0
+huggingface_hub>=0.24  # build-time model download only
